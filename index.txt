@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <title>Online Book Store - Home</title>
+</head>
+<body background-image=""D:\sigma web development course\6th sem practise\amazon\amazon.jpg">
+  <h1 align="center">Welcome to Online Book Store</h1>
+  <nav align="center">
+    <a href="register.html">Register/Login</a> |
+    <a href="profile.html">Profile</a> |
+    <a href="catalog.html">Books Catalog</a> |
+    <a href="cart.html">Shopping Cart</a> |
+    <a href="payment.html">Payment</a>
+  </nav>
+  <hr>
+  <p align="center">Discover thousands of books across genres. Browse, add to cart, and enjoy reading!</p>
+</body>
+</html>

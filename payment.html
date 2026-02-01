@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+  <title>Payment - Online Book Store</title>
+</head>
+<body bgcolor="orange">
+<table border="1" width="100%" cellspacing="5" cellpadding="10" bgcolor=white>
+    <tr>
+      <td width="15%" align="center">
+        <img src="logo.png" alt="Book Store Logo" width="100%" height="70">
+      </td>
+      <td width="70%" height="50%" align="center">
+        <h1>Secure Payment</h1>
+      </td>
+      <td width="30%" align="center">
+<table border="0" cellspacing="10" cellpadding="5" align="center">
+  <tr >
+    <a href="index.html">
+      Home Page
+    </a>
+  </tr>
+</table>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <table bgcolor=peachpuff border="1" width="50%" align="center" cellspacing="10" cellpadding="10">
+    <tr>
+      <td>
+        <form method="post">
+          <h3>Select Payment Method:</h3>
+          <p>
+            <input type="radio" id="card" name="payment" value="card" checked>
+            <label for="card">Credit/Debit Card</label><br>
+
+            <input type="radio" id="upi" name="payment" value="upi">
+            <label for="upi">UPI (Google Pay, PhonePe, Paytm, etc)</label><br>
+
+            <input type="radio" id="wallet" name="payment" value="wallet">
+            <label for="wallet">Wallets (Amazon Pay, Paytm Wallet)</label><br>
+
+            <input type="radio" id="cod" name="payment" value="cod">
+            <label for="cod">Cash on Delivery</label>
+          </p>
+
+          <h3>Enter Payment Details:</h3>
+          <p>
+            <label for="name">Cardholder Name:</label><br>
+            <input type="text" id="name" name="name" size="40">
+          </p>
+          <p>
+            <label for="cardnum">Card Number:</label><br>
+            <input type="text" id="cardnum" name="cardnum" size="40" maxlength="16">
+          </p>
+          <p>
+            <label for="expiry">Expiry Date (MM/YY):</label><br>
+            <input type="text" id="expiry" name="expiry" size="10">
+          </p>
+          <p>
+            <label for="cvv">CVV:</label><br>
+            <input type="password" id="cvv" name="cvv" size="5" maxlength="3">
+          </p>
+          <p>
+            <label for="address">Billing Address:</label><br>
+            <textarea id="address" name="address" rows="3" cols="40"></textarea>
+          </p>
+
+       <h1 align="center">
+  <button> <a href="orderconfirmation.html">
+    Pay Now
+  </a></button>
+</h1>
+          </p>
+        </form>
+      </td>
+    </tr>
+  </table>
+ <br>
+<br>
+<table border="0" width="100%" bgcolor=white cellspacing="10" cellpadding="10" bgcolor=pink>
+  <tr>
+    <td align="center">
+      <hr>
+      <h2><b>Search, Cart, Buy, and Enjoy books across genres !!</b></h2>
+      <h2>
+        <a href="about.html">About Us</a> | 
+        <a href="contact.html">Contact</a> | 
+        <a href="help.html">Help</a> | 
+        <a href="terms.html">Terms & Conditions</a>
+      </h2>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
